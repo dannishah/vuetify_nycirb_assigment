@@ -1,24 +1,17 @@
 <template>
+  <VApp>
+    <Navv />
 
-<VApp>
+    <Home />
 
-<Navv />
+    <Footer />
+  </VApp>
 
-<Home />
-
-<Footer />
-
-</VApp>
-
-<VMain>
-
-</VMain>
-
+  <VMain> </VMain>
 </template>
 
 <script setup>
-import Navv from "./components/Navv.vue"
-import Home from './components/Home.vue'
-import Footer from "./components/Footer.vue"
-
+import Navv from "./components/Navv.vue";
+import Home from "./components/Home.vue";
+import Footer from "./components/Footer.vue";
 </script>
